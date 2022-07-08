@@ -6,9 +6,9 @@ date: 2022-01-05
 tags: [tips, work]
 ---
 
-<svg id="my_dataviz"></svg>
+<svg id="d3_graph_example_post_datavis_1"></svg>
 
-<script src="{{site.basurl}}/js/test-graph.js"></script>
+<script src="{{site.basurl}}/js/graphs/d3_graph_example_post_datavis_1.js"></script>
 
 A graphic designer is a professional within the graphic design and graphic arts industry who assembles together images, typography, or motion graphics to create a piece of design. A graphic designer creates the graphics primarily for published, printed or electronic media, such as brochures (sometimes) and advertising. They are also sometimes responsible for typesetting, illustration, user interfaces, web design, or take a teaching position. A core responsibility of the designer's job is to present information in a way that is both accessible and memorable.
 
