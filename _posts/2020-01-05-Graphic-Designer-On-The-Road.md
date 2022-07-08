@@ -3,11 +3,10 @@ layout: post
 title: "Example of a D3 Graph"
 description: "A graphic designer is a professional within the graphic design and graphic arts industry."
 date: 2022-01-05
-feature_image: images/road.jpg
 tags: [tips, work]
 ---
 
-<div id="my_dataviz"></div>
+<svg id="my_dataviz" width="400" height="300"></svg>
 
 <script src="{{site.basurl}}/d3/violin-graph.js"></script>
 
