@@ -3,7 +3,6 @@
    ========================================================================== */
 
 .site-header {
-  border-bottom: 1px solid _palette(border);
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
@@ -93,12 +92,9 @@
 
 /* Site description */
 .site-description {
-  border-bottom: 1px solid _palette(border);
   font-family: _font(secondary);
-  font-size: 1.33333em;
+  font-size: 0.8em;
   font-style: italic;
-  padding-bottom: 3.33333rem;
-  padding-top: 2.22222rem;
 
   @media only screen and (max-width: 600px) {
     font-size: 1.25em;
