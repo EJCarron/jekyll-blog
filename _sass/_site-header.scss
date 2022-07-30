@@ -10,18 +10,20 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  padding-bottom: 3.33333em;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 1em;
   padding-top: 2.5em;
 }
 
 .site-title {
   color: _palette(secondary);
   font-family: _font(secondary);
-  font-size: 1.66667rem;
-  font-weight: bold;
+  font-size: 3rem;
+  font-weight: lighter;
   letter-spacing: -1px;
   line-height: 1.2;
-  margin: 0 15px 0 0;
+  margin: 0;
 
   @media only screen and (max-width: 600px) {
     font-size: 1.5rem;
@@ -38,10 +40,6 @@
 }
 
 /* Navigation */
-.site-navigation {
-  margin-left: auto;
-}
-
 .menu {
   list-style: none;
   margin: 0;
@@ -50,7 +48,7 @@
 
 .menu-item {
   display: inline-block;
-  margin: 0 0 0 15px;
+  margin: 0.5rem;
   a {
     color: _palette(meta);
     display: inline-block;
@@ -119,7 +117,7 @@
     visibility: hidden;
     z-index: -1;
   }
-  
+
   .site-navigation-wrap {
     height: 100%;
     overflow: auto;
