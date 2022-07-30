@@ -24,6 +24,30 @@
   letter-spacing: -1px;
   line-height: 1.2;
   margin: 0;
+  position: relative;
+  z-index: 101;
+  width: 100%;
+  text-align: center;
+
+  .logo-text {
+    position: relative;
+    z-index: 102;
+    background-color: white;
+    padding: 0 1rem;
+  }
+
+  &::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    content: "";
+    height: 1px;
+    margin-top: 0.1rem;
+    background-color: #d3d3d3;
+  }
 
   @media only screen and (max-width: 600px) {
     font-size: 1.5rem;
@@ -35,6 +59,7 @@
     text-decoration: none;
     &:hover {
       color: _palette(accent);
+      text-decoration: underline;
     }
   }
 }
