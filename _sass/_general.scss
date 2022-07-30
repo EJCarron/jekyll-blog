@@ -32,8 +32,8 @@ body {
 a {
   color: _palette(accent);
   text-decoration: none;
-  -webkit-transition: color .3s ease;
-  transition: color .3s ease;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
   &:hover {
     color: _palette(secondary);
     text-decoration: underline;
@@ -217,8 +217,8 @@ td {
 }
 
 th {
-   color: _palette(secondary);
-   font-weight: bold;
+  color: _palette(secondary);
+  font-weight: bold;
 }
 
 table tbody > tr:nth-child(odd) {
@@ -311,88 +311,88 @@ video {
 #menu-open,
 #menu-close,
 .back-to-top {
-	background: 0;
+  background: 0;
   border: 1px solid _palette(border);
   border-radius: 3px;
   box-sizing: border-box;
-	color: _palette(primary);
-	padding: 0;
-	position: relative;
-	height: 36px;
+  color: _palette(primary);
+  padding: 0;
+  position: relative;
+  height: 36px;
   width: 36px;
-  -webkit-transition: border-color .3s, color .3s;
-	transition: border-color .3s, color .3s;
+  -webkit-transition: border-color 0.3s, color 0.3s;
+  transition: border-color 0.3s, color 0.3s;
 
   &:hover,
-	&:focus,
-	&:active {
-		border-color: _palette(accent);
+  &:focus,
+  &:active {
+    border-color: _palette(accent);
     color: _palette(accent);
-		outline: 0;
-	}
+    outline: 0;
+  }
 }
 
 /* Custom icons */
 .icon-menu {
   background: currentColor;
   color: inherit;
-	height: 2px;
-	left: 50%;
+  height: 2px;
+  left: 50%;
   margin-left: -11px;
   margin-top: -1px;
   position: absolute;
   top: 50%;
-	width: 22px;
+  width: 22px;
 
-	&:before,
-	&:after {
-		background: currentColor;
-		content: "";
-		height: 100%;
-		left: 0;
-		position: absolute;
-		width: 100%;
-	}
+  &:before,
+  &:after {
+    background: currentColor;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
 
-	&:before {
-		top: -5px;
-	}
+  &:before {
+    top: -5px;
+  }
 
-	&:after {
-		bottom: -5px;
-	}
+  &:after {
+    bottom: -5px;
+  }
 }
 
 .icon-close {
-	background: 0;
-	color: inherit;
+  background: 0;
+  color: inherit;
   height: 2px;
   left: 50%;
   margin-left: -12px;
   margin-top: -1px;
-	position: absolute;
-	top: 50%;
-	width: 24px;
+  position: absolute;
+  top: 50%;
+  width: 24px;
 
-	&:before,
-	&:after {
-		background: currentColor;
-		content: "";
-		height: 100%;
-		left: 0;
-		position: absolute;
-		width: 100%;
-	}
+  &:before,
+  &:after {
+    background: currentColor;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
 
-	&:before {
-		top: 0;
-		-webkit-transform: rotate(45deg);
-		transform: rotate(45deg);
-	}
+  &:before {
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
 
-	&:after {
-		top: 0;
-		-webkit-transform: rotate(-45deg);
-		transform: rotate(-45deg);
-	}
+  &:after {
+    top: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
 }
